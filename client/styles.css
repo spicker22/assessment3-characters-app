@@ -1,0 +1,32 @@
+
+/* Defining the body style*/
+body{                                   
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Defining the character card style details*/
+.character-card{
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding:10px;
+    width: 25%;
+}
+
+/* Defining the character display style details*/
+#characterDisplay{
+    width: 80vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+
+/* Defining the character image dimension display details*/
+img{
+    min-height: 100px;
+    min-width: 200px;
+}

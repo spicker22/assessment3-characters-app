@@ -1,0 +1,29 @@
+<!-- HTML file details  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Character Title</title>
+</head>
+<body>
+    <h3>Best Characters Ever?</h3>
+
+    <!-- Displaying the different character details as defined by the main.js file  -->
+    <div id="characterDisplay"></div>
+
+    <!-- Form so the user can input details about a character -->
+    <form>
+        <h4>Add a Character!</h4>
+        <h4>Name</h4> <input type="text" id="characterName"> 
+        <h4>Picture</h4><input type="text" id="characterPicture">
+        <h4>Catchphrase</h4><input type="text" id="characterCatchPhrase">
+        <h4>Age</h4><input type="number" id="characterAge">
+        </br></br><button id="addCharacter">Submit!</button>
+    </form>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
